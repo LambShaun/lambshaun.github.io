@@ -1,5 +1,58 @@
-site_name: My blog
-site_url: https://mydomain.org/mysite
+# 项目信息
+site_name: 我的个人网站          # 网站标题，会显示在导航栏
+site_url: https://lambshaun.github.io/ # 你的网站最终发布的URL (重要！)
+site_author: LambShaun      
+
+site_description: 关于我的个人网站的简短描述
+
+# 仓库信息 (可选，会在主题中显示仓库链接)
+repo_url: https://github.com/LambShaun/lambshaun.github.io/ # 指向你的GitHub仓库
+repo_name: lambshaun.github.io
+
+# 编辑URI (可选，方便直接跳转到GitHub编辑页面)
+edit_uri: edit/main/docs/   # 如果你的默认分支是 main，并且文档在 docs 目录下
+
+# 导航 (定义网站的导航结构)
+nav:
+  - 首页: index.md
+  - 关于我: about.md
+  - 我的项目:
+    - 项目1: projects/project-a.md
+    - 项目2: projects/project-b.md
+  # 可以添加更多页面或子目录
+
+# 主题配置 (如果使用了 mkdocs-material 主题)
 theme:
-  name: material
- 
+  name: material          # 使用 material 主题
+  language: zh            # 设置语言为中文 (需要主题支持)
+  palette:                # 配色方案 (可选)
+    - scheme: default       # 默认是亮色模式
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate         # 暗色模式
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:               # 启用主题的一些特性 (可选)
+    - navigation.tabs     # 使用顶部标签页导航
+    - navigation.top      # 返回顶部按钮
+    - search.suggest      # 搜索建议
+    - content.code.copy   # 代码块复制按钮
+  # logo: assets/logo.png   # 可选：添加网站logo，需先创建 assets 目录并放入图片
+  # favicon: assets/favicon.png # 可选：添加网站图标
+
+# Markdown 扩展 (可选，增强 Markdown 功能)
+markdown_extensions:
+  - pymdownx.highlight:     # 代码高亮
+      anchor_linenums: true
+  - pymdownx.inlinehilite   # 行内代码高亮
+  - pymdownx.snippets       # 引用外部文件片段
+  - pymdownx.superfences    # 增强的围栏代码块
+  - admonition              # 警告、提示等块
+  - toc:
+      permalink: true       # 为标题添加永久链接
+
+# 插件 (可选，例如用于部署的 gh-deploy)
+# plugins:
+#   - search                # 内建搜索插件 (material 主题自带更好的搜索)
