@@ -1,9 +1,9 @@
 # 项目信息
-site_name: 我的个人网站          # 网站标题，会显示在导航栏
-site_url: https://lambshaun.github.io/ # 你的网站最终发布的URL (重要！)
-site_author: LambShaun      
+site_name: LambShaun的个人网站          # 网站标题，会显示在导航栏
+site_url: https://lambshaun.github.io/ 
+site_author: 陈峰     
+site_description: 陈峰个人网站
 
-site_description: 关于我的个人网站的简短描述
 
 # 仓库信息 (可选，会在主题中显示仓库链接)
 repo_url: https://github.com/LambShaun/lambshaun.github.io/ # 指向你的GitHub仓库
@@ -14,12 +14,22 @@ edit_uri: edit/main/docs/   # 如果你的默认分支是 main，并且文档在
 
 # 导航 (定义网站的导航结构)
 nav:
-  - 首页: index.md
-  - 关于我: about.md
-  - 我的项目:
-    - 项目1: projects/project-a.md
-    - 项目2: projects/project-b.md
-  # 可以添加更多页面或子目录
+  - 我: 
+    - ME/about.md
+    - ME/introduction.md
+    - ME/profile.md
+    - ME/contact.md
+    - ME/description.md
+
+  - 博客:
+    - BLOG/index.md
+
+  - 开发:
+    - DEV/index.md
+
+  - 研究:
+    - RESEARCH/index.md
+
 
 # 主题配置 (如果使用了 mkdocs-material 主题)
 theme:

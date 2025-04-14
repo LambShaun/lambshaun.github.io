@@ -1,19 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://lambshaun.github.io/</loc>
+         <loc>https://lambshaun.github.io/BLOG/</loc>
          <lastmod>2025-04-14</lastmod>
     </url>
     <url>
-         <loc>https://lambshaun.github.io/about/</loc>
+         <loc>https://lambshaun.github.io/DEV/</loc>
          <lastmod>2025-04-14</lastmod>
     </url>
     <url>
-         <loc>https://lambshaun.github.io/projects/project-a/</loc>
+         <loc>https://lambshaun.github.io/ESSAY/</loc>
          <lastmod>2025-04-14</lastmod>
     </url>
     <url>
-         <loc>https://lambshaun.github.io/projects/project-b/</loc>
+         <loc>https://lambshaun.github.io/ME/about/</loc>
+         <lastmod>2025-04-14</lastmod>
+    </url>
+    <url>
+         <loc>https://lambshaun.github.io/ME/contact/</loc>
+         <lastmod>2025-04-14</lastmod>
+    </url>
+    <url>
+         <loc>https://lambshaun.github.io/ME/description/</loc>
+         <lastmod>2025-04-14</lastmod>
+    </url>
+    <url>
+         <loc>https://lambshaun.github.io/ME/introduction/</loc>
+         <lastmod>2025-04-14</lastmod>
+    </url>
+    <url>
+         <loc>https://lambshaun.github.io/ME/profile/</loc>
+         <lastmod>2025-04-14</lastmod>
+    </url>
+    <url>
+         <loc>https://lambshaun.github.io/REPRINT/REPRINT/</loc>
+         <lastmod>2025-04-14</lastmod>
+    </url>
+    <url>
+         <loc>https://lambshaun.github.io/RESEARCH/</loc>
+         <lastmod>2025-04-14</lastmod>
+    </url>
+    <url>
+         <loc>https://lambshaun.github.io/SITE/</loc>
          <lastmod>2025-04-14</lastmod>
     </url>
 </urlset>
