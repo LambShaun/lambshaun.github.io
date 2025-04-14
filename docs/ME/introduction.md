@@ -12,7 +12,7 @@
 [点击查看更多信息](./contact.md)
 
 ## 公众账号
-* [GITHUB](https://github.com/LambShaun)
+* [GitHub](https://github.com/LambShaun)
 * [Bilibili](https://space.bilibili.com/474336880)
 
 ## 个人特点
