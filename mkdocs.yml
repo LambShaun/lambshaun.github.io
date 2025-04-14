@@ -14,7 +14,6 @@ edit_uri: edit/main/docs/   # 如果你的默认分支是 main，并且文档在
 
 # 导航 (定义网站的导航结构)
 nav:
-  - Home: index.md 
   - 我: 
     - ME/about.md
     - ME/introduction.md
@@ -34,6 +33,7 @@ nav:
     
   - 随笔:
     - ESSAY/index.md
+    - ESSAY/202504.md
 
   - 转载:
     - REPRINT/index.md
