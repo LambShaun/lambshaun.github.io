@@ -94,6 +94,23 @@ theme:
     # [点击按钮跳转至 GitHub 修改 Markdown 源文件]
     # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#code-actions
     - content.action.edit
+extra:
+  # [添加社交网络图标和链接]
+  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#social-links
+  # 搜索图标：https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#search
+  # name 会在鼠标悬浮时提示
+  social: # icons
+    - name: GitHub | LambShaun  
+      icon: fontawesome/brands/github
+      link: https://github.com/LambShaun
+    - name: Bilibili | LambShaun_
+      icon: fontawesome/brands/bilibili
+      link: https://space.bilibili.com/474336880
+  
+    - name: 打赏支持
+      icon: fontawesome/solid/mug-saucer
+      link: 
+
 
 # 插件 (可选，例如用于部署的 gh-deploy)
 plugins:
