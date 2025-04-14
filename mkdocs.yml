@@ -29,6 +29,16 @@ nav:
 
   - 研究:
     - RESEARCH/index.md
+    
+  - 随笔:
+    - ESSAY/index.md
+
+  - 转载:
+    - REPRINT/index.md
+
+  - 网站:
+    - WEBSITE/index.md
+    
 
 
 # 主题配置 (如果使用了 mkdocs-material 主题)
