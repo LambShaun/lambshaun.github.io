@@ -33,6 +33,9 @@ nav:
 
   - 研究:
     - RESEARCH/index.md
+    - 软件:
+      - Keypirinha:
+        - RESEARCH/Apps/Keypirinha.md
     
   - 随笔:
     - ESSAY/index.md
