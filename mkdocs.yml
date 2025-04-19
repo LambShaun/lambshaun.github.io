@@ -26,7 +26,7 @@ nav:
 
   - 开发:
     - DEV/index.md
-    - DEV/Graduation project.md
+    - DEV/ESP32AccessKeyBoardDesign.md
     - 编程:
       - C:
         - DEV/Programming/C/review.md
