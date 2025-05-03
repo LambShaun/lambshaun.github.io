@@ -33,6 +33,7 @@ nav:
       - Cpp:
         - DEV/Programming/Cpp/01cppbasics.md
         - DEV/Programming/Cpp/02More Basicscpp.md
+        - DEV/Programming/Cpp/指针、引用和动态内存分配.md
   - 研究:
     - RESEARCH/index.md
     - 软件:
