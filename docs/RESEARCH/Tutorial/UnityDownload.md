@@ -20,10 +20,7 @@ start "" "C:\Program Files\Unity Hub\Unity Hub.exe"
 ```
 这里的端口换成自己的代理软件里的端口，如果更改了安装地址也需要更改上面的地址。
 
-`Mac`比较特殊，需要在终端运行这个脚本，一般情况会提示没有权限，我们在终端里输入
-```
-chmod +x launchUnityHub.command
-```
+`Mac`比较特殊，需要在终端运行这个脚本。
 
 `Mac`为
 ```
@@ -31,6 +28,7 @@ echo '#!/bin/bash
 export HTTP_PROXY=http://127.0.0.1:1080
 export HTTPS_PROXY=http://127.0.0.1:1080
 nohup "/Applications/Unity Hub.app/Contents/MacOS/Unity Hub" &>/dev/null &' > launchUnityHub.command
+chmod +x launchUnityHub.command
 ```
 
 ## 注意事项
