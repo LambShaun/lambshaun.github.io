@@ -4,6 +4,14 @@
 
 ---
 
+## 仓库地址
+
+<https://github.com/LambShaun/ESP32AccessHID-keyboard>
+
+克隆链接 
+
+<https://github.com/LambShaun/ESP32AccessHID-keyboard.git>
+
 ## 核心功能
 
 * **高度灵活的按键映射 (Key Mapping)**：支持将1个模拟摇杆和10个物理按键自由映射为任意标准键盘按键。
